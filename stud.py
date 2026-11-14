@@ -8,3 +8,9 @@ print("student result")
 print("studentname:",name)
 print("total marks",total_marks)
 
+avg = total_marks/3
+print("average",avg)
+if(total_marks>35):
+    print("pass")
+else:
+    print("fail")
